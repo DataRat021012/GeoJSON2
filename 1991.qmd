@@ -1,0 +1,36 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.34.6-Prizren">
+  <identifier>RADIOS_1991_v2023_1</identifier>
+  <parentidentifier></parentidentifier>
+  <language>SPA</language>
+  <type>dataset</type>
+  <title>RADIOS_1991_v2023_1</title>
+  <abstract>Nueva versión actualizada de la bases cartográfica de los censos nacionales de Argentina, años 1991, 2001 y 2010. Incorpora mejoras sustanciales en georreferenciación de los radios censales, corrección de códigos para víncular con bases REDATAM, y nuevos polígonos para el Sector Antártico e Islas del Atlántico Sur.</abstract>
+  <keywords vocabulary="Buscar claves">
+    <keyword>Radios censales de la República Argentina</keyword>
+    <keyword>censo 1991 (Versión 2021)</keyword>
+  </keywords>
+  <links/>
+  <dates/>
+  <fees></fees>
+  <rights>Rodríguez, Gonzalo Martín.&#xd;
+Invetigador Adjunto CEUR-CONICET&#xd;
+gonzalor@conicet.gov.ar</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["POSGAR 94 / Argentina 3",BASEGEOGCRS["POSGAR 94",DATUM["Posiciones Geodesicas Argentinas 1994",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4694]],CONVERSION["Argentina zone 3",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",-90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-66,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",1,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",3500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (X)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (Y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Argentina - between 67°30'W and 64°30'W, onshore."],BBOX[-55.11,-67.5,-21.78,-64.49]],ID["EPSG",22183]]</wkt>
+      <proj4>+proj=tmerc +lat_0=-90 +lon_0=-66 +k=1 +x_0=3500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>1943</srsid>
+      <srid>22183</srid>
+      <authid>EPSG:22183</authid>
+      <description>POSGAR 94 / Argentina 3</description>
+      <projectionacronym>tmerc</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial dimensions="2" crs="EPSG:4326" maxz="0" maxx="-26.25206999999999979" minx="-74" maxy="-21.78077800000000153" minz="0" miny="-89.9999909999999943"/>
+  </extent>
+</qgis>
